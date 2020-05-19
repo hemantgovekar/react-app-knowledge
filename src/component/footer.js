@@ -1,9 +1,12 @@
 import React from 'react'
 
-function footer() {
+function footer(props) {
     return (
-        <div>
-            {/* @copywrite : Hemant Govekar  */}
+        <div className="container">
+            <hr></hr>
+            <h3>
+                Environment: {props.environment}
+            </h3>
         </div>
     )
 }

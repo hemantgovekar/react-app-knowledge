@@ -8,9 +8,10 @@ import Header from './component/header';
 function App() {
   return (
     <div>
+
       <Header name="Search Git Users" ></Header >
       <Content />
-      <Footer />
+      <Footer environment={process.env.REACT_APP_BASE_URL} />
     </div>
   );
 }

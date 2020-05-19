@@ -6,7 +6,7 @@ import Design from './design';
 function Content() {
     const [users, setUsers] = useState([]);
     const [search, setSearch] = useState('');
-    const [query, setQuery] = useState('hemant');
+    const [query, setQuery] = useState('hemantgovekar');
 
     useEffect(() => {
         getData();
