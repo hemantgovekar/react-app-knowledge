@@ -9,7 +9,7 @@ export default function Navigation() {
                 <Nav className="mr-auto">
                     <Nav.Link  href="/">Home</Nav.Link>
                     <Nav.Link href="/aboutus">About Us</Nav.Link>
-                    <Nav.Link href="/gitsearch">Git Search</Nav.Link>
+                    <Nav.Link href="/gitsearch">Random User</Nav.Link>
                 </Nav>
                 {/* <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" />
