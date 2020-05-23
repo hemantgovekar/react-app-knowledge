@@ -56,7 +56,7 @@ export default function GitSearch() {
                                 <div>Country : {user.location.country}</div>
                             </Modal.Body>
                             <Modal.Footer>
-                                <Button variant="secondary" onClick={handleClose}>
+                                <Button variant="primary" onClick={handleClose}>
                                     Close
                                 </Button>
                                 {/* <Button variant="primary" onClick={handleClose}>
