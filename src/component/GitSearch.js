@@ -34,9 +34,9 @@ export default function GitSearch() {
                                 <img src={user.picture.large}></img>
                             </div>
                             <div style={{ float: "right", width: "80%" }}>
-                                <h3 className="card-title">Email : {user.email}</h3>
-                                <h3 className="card-title">Address : {user.location.street.name}</h3>
-                                <h3 className="card-title">Age : {user.dob.age}</h3>
+                                <h5 className="card-title">Email : {user.email}</h5>
+                                <h5 className="card-title">Address : {user.location.street.name}</h5>
+                                <h5 className="card-title">Age : {user.dob.age}</h5>
                                 <p className="card-text"></p>
                                 <Button variant="primary" onClick={handleShow}>
                                     Get More Details
