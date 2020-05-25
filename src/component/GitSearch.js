@@ -31,7 +31,7 @@ export default function GitSearch() {
 
                         <div className="card-body">
                             <div style={{ float: "left", width: "20%" }}>
-                                <img src={user.picture.large}></img>
+                                <img alt="user pic" src={user.picture.large}></img>
                             </div>
                             <div style={{ float: "right", width: "80%" }}>
                                 <h5 className="card-title">Email : {user.email}</h5>

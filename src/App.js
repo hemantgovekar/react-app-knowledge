@@ -11,7 +11,6 @@ function App() {
   return (
     <Router>
         <Navigation/>
-
       <div className="container">
         <h3 className="m-3 d-flex  justify-content-center"> React Js Learnings</h3>
         <Switch>
